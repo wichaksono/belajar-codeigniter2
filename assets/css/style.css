@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #282B32;
+}
+
+.header-container,
+.content,
+.sidebar,
+.footer {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.header-container {
+    background-color: #2c3e50;
+}
+
+nav.menus {
+    margin-top: 4%;
+    text-align: right;
+}
+
+nav.menus ul,
+nav.menus li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav.menus li {
+    display: inline;
+}
+
+nav.menus li a {
+    display: inline-block;
+    color: #ecf0f1;
+    padding: 5px 7px;
+}
+
+nav.menus li a:hover {
+    text-decoration: none;
+    background-color: #34495E;
+}
+
+.title-site,
+.description,
+.title-widget {
+    color: #ecf0f1;
+    font-weight: 300;
+}
+
+.wrap-container {
+    position: relative;
+}
+
+.wrap-container .content {
+    background-color: #ecf0f1
+}
+
+.header-container,
+.content,
+.sidebar,
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.article {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E8E5E5;
+}
+
+a.permalink .title-post {
+    font-weight: 300;
+    color:#444;
+}
+a.permalink:hover,
+a.permalink:hover > .title-post  {
+	text-decoration: none;
+	color: #34495E;
+}
+.sidebar {
+    background-color: #34495e;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.categories_class ul,
+.categories_class li {
+    padding: 0 5px;
+    margin: 0;
+    list-style: none;
+}
+
+.categories_class li a {
+    color: #ecf0f1;
+    font-weight: 300;
+}
+
+.footer,
+.footer a {
+	color: #ecf0f1;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 980px) {
+    nav.menus {
+        text-align: left;
+    }
+    .sidebar {
+        position: relative;
+    }
+}
